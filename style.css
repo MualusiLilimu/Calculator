@@ -1,0 +1,95 @@
+body{
+    background-image: url('mathspic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sectionid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#formid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 169, 30);
+    border-radius: 5px;
+    height: 700px;
+    width: 500px;
+    opacity: 95%;
+}
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+#inputid{
+    border-radius: 5px;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sectionbutton{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 525px;
+    width: 320px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    gap: 10px;
+}
+
+#Calculator{
+    background-color: chocolate;
+    height: 595px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px;
+    animation: fadeIn  3s ease-in-out;
+}
+
+.button{
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 5px;
+    transition: 0.15s;
+}
+
+.button:hover{
+    background-color: cadetblue;
+}
+.buttons:hover{
+    background-color: cadetblue;
+}
+
+.buttons{
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    transition: 0.15s;
+}
+
+
